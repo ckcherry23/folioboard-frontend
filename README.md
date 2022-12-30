@@ -1,5 +1,7 @@
 # FolioBoard Frontend 
 
+![Vercel](https://vercelbadge.vercel.app/api/ckcherry23/folioboard-frontend)
+
 FolioBoard is a forum to give and receive developer portfolio reviews.
 
 ## Getting Started
