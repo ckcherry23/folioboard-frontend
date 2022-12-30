@@ -54,9 +54,8 @@ Main directories/files to note:
 
 -   This project uses [Typescript](https://www.typescriptlang.org/).
 -   The linting and code formatting rules are specified in `.eslintrc.js` and `.prettierrc.js` respectively.
-    You may modify the rules.
 -   The available scripts are in `package.json`.
-    To fix linting and formatting errors, you can run:
+    To fix linting and formatting errors, run:
     -   `yarn lint:fix`
     -   `yarn format:fix`
 
