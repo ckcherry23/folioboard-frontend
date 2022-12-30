@@ -5,12 +5,16 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@material-ui/core';
-import { blue, orange } from '@material-ui/core/colors';
+import { deepPurple } from '@material-ui/core/colors';
 
 const theme = createTheme({
     palette: {
-        primary: blue,
-        secondary: orange,
+        primary: {
+            main: deepPurple[500],
+        },
+        secondary: {
+            main: '#A998E7',
+        },
     },
 });
 
@@ -20,8 +24,8 @@ const App: React.FC = () => {
             <ThemeProvider theme={theme}>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/thread/1" element={<BasicThreadView />} />
-                        <Route path="/thread/1/styled" element={<StyledThreadView />} />
+                        <Route path="/post/1" element={<BasicThreadView />} />
+                        <Route path="/post/1/styled" element={<StyledThreadView />} />
                         <Route path="/" element={<Home />} />
                     </Routes>
                 </BrowserRouter>
