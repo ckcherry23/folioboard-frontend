@@ -24,7 +24,7 @@ yarn start
 ```
 
 6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser if it does not happen automatically.
-7. You should seethe homepage of FolioBoard like this.
+7. You should see the homepage of FolioBoard like this.
    ![Basic Page](public/images/BasicPage.png)
 
 ### Navigating the code
