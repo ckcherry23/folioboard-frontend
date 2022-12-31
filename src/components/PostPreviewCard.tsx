@@ -3,7 +3,7 @@ import '../App.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const PostPreview: React.FC = () => {
+const PostPreviewCard: React.FC = () => {
     return (
 
         <li>
@@ -13,4 +13,4 @@ const PostPreview: React.FC = () => {
     );
 };
 
-export default PostPreview;
+export default PostPreviewCard;
